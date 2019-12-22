@@ -1,0 +1,144 @@
+html, body {
+    color: #202020;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    color: #fd31ca;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #ffbbee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    color: #fd31ca;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+.custom-hr {
+    border-style: dotted none none;
+    border-color: #ffbbee;
+    border-width: 6px;
+    margin: 100px auto;
+    width: 7%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+}
+
+#navbar-text {
+    position: relative;
+    top: 4px;
+}
+
+#mainNavbar .navbar-brand{
+    color: #fd31ca;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #fd31ca;
+}
+
+#mainNavbar .nav-link:hover {
+    background-color: #fd31ca;
+    color: #ffbbee;
+    transition: 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: #ffbbee;
+    transition: 0.9s;
+}
+
+#mainNavbar .navbar-toggler{
+    width: 50px;
+    height: 36px;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fd31ca;
+    margin: 3px auto;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ffbbee;
+    margin-bottom: 6.25rem;
+    padding-top: 9.375rem;
+}
+
+#title h1 {
+    color: #fd31ca;
+    font-family: 'Sacramento', cursive;
+    font-size: 6.5rem;
+    margin: 50px auto 0px;
+}
+
+#bird-img {
+    position: absolute;
+    width: 100px;
+    top: 80px;
+    right: 20%;
+}
+
+.img-fluid.design-img {
+    margin: 140px auto;
+}
+
+/* Intro Section */
+#profile-img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(55, 55, 55, .5);
+    width: 300px;
+}
+
+/* Skills Section */
+
+.img-custom {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+/* Contact Section */
+
+.btn-custom {
+    color: #b40c8a;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.btn-custom:hover {
+    color: #fd31ca;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    background-color: #fd31ca;
+    color: #ffbbee;
+    padding: 2.5rem;
+    font-size: 0.85rem;
+}
